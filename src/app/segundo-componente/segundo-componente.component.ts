@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
 export class SegundoComponenteComponent {
   nome = 'Maria Oliveira';
   dataNascimento = '2001/11/04';
-  urlImage = ''
+  urlImagem = '/assets/jesus.jpg';
 }
