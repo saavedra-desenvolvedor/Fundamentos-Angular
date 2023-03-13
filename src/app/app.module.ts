@@ -12,6 +12,8 @@ import { RenderizandoListasComponent } from './renderizando-listas/renderizando-
 import { ComponentePersonalizadoComponent } from './componente-personalizado/componente-personalizado.component';
 import { ComponentePaiComponent } from './componente-pai/componente-pai.component';
 import { ComponenteFilhoComponent } from './componente-filho/componente-filho.component';
+import { ExemploServico01Component } from './exemplo-servico01/exemplo-servico01.component';
+import { ExemploServico02Component } from './exemplo-servico02/exemplo-servico02.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { ComponenteFilhoComponent } from './componente-filho/componente-filho.co
     ComponentePersonalizadoComponent,
     ComponentePaiComponent,
     ComponenteFilhoComponent,
+    ExemploServico01Component,
+    ExemploServico02Component
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],
