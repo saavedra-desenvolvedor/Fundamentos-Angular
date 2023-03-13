@@ -10,8 +10,5 @@ export class ComponenteFilhoComponent {
   @Output() mostrarNome = new EventEmitter();
 
   nome = '';
-
-  mostrarNomecompleto(nomeCompleto: any) {
-    alert(`O nome completo é: ${nomeCompleto}`);
-  }
+ 
 }
