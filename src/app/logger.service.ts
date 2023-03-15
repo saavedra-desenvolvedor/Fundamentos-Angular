@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root', // <---- Adiciona isto ao serviço
+})
 export class LoggerService {
   mensagens: string[] = [];
 
